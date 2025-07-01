@@ -1,7 +1,7 @@
 # MentorMe App  
 
 ### 📌 Description  
-**MentorMe** is a **Firebase-powered Android mentorship platform** built with **Kotlin & XML**, designed to bridge students and mentors worldwide. The app offers a **real-time, interactive ecosystem** with secure authentication, dynamic chat systems (text/voice/video), session booking, push notifications, and offline support—all backed by **Firebase Realtime Database, Storage, and Agora API** for seamless communication.  
+**MentorMe** is an **Android mentorship platform** built with **Kotlin**, designed to connect students and mentors worldwide. The app offers a **real-time, interactive ecosystem** with secure authentication, dynamic chat systems (text/voice/video), session booking, push notifications, and offline support—all backed by **Firebase Realtime Database, Storage, and Agora API** for seamless communication.  
 
 ### 🔥 Key Features  
 ✔ **Auth & Profiles**  
