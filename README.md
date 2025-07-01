@@ -1,15 +1,40 @@
-# Mentor Me APP
+# MentorMe App  
 
-### Description
-MentorMe is a comprehensive mentorship app built in Android Studio using Kotlin, XML, and Firebase. The main initiative behind the app is to create a user-centered platform that enables Students and Mentors to interact with one another.
+### 📌 Description  
+**MentorMe** is a **Firebase-powered Android mentorship platform** built with **Kotlin & XML**, designed to bridge students and mentors worldwide. The app offers a **real-time, interactive ecosystem** with secure authentication, dynamic chat systems (text/voice/video), session booking, push notifications, and offline support—all backed by **Firebase Realtime Database, Storage, and Agora API** for seamless communication.  
 
-The app showcases an interactive UI for Students and by Signing-Up, the Students can interact and book sessions with other people offering mentorship from all around the world. Multiple features of this app include User Authentication, User Data Management, User Profile and Homepage, Dedicated Mentor Dashboard, User Messaging, Group Messaging, Audio/Video Calling, Push Notifications, Offline Accessibility and much much more.
- 
-Currently the app only features a native tech stack so the app can only be installed and used via an Android device.
+### 🔥 Key Features  
+✔ **Auth & Profiles**  
+- Secure signup/login/logout with Firebase Auth.  
+- Customizable profiles (DP, cover photo, bio edits).  
+- Auto-navigation: Splash → Home (if logged in) or Signup → Profile (new users).  
+
+✔ **Mentor Discovery**  
+- Browse mentors on the homepage.  
+- **Search & filter** mentors by expertise/availability.  
+- Add mentors to **favorites** for quick access.  
+- Leave **reviews/ratings** based on sessions.  
+
+✔ **Real-Time Chat & Calls**  
+- **1-on-1 & group chats** with text, images, files, and voice notes.  
+- **Audio/video calls** via Agora API.  
+- **Message editing/deleting** (within 5 mins).  
+- **Screenshot detection** with notifications.  
+- Online/offline status indicators.  
+
+✔ **Sessions & Notifications**  
+- Book/cancel mentorship sessions.  
+- **Push notifications** (new messages, session updates, screenshots).  
+- Notification history screen.  
+
+✔ **Offline Support**  
+- Cached images (**Picasso** library).  
+- Send queued messages when back online.  
+- View old chats/bookings without internet.  
 
 ---
 
-## 📱 Sample UI Screens
+## 📱 Sample UI Screens  
 <p align="center">
   <img src="User Interface/Splashscreen.png" alt="Splash Screen" width="30%" />
   <img src="User Interface/login.png" alt="Login Screen" width="30%" />
@@ -38,11 +63,13 @@ Currently the app only features a native tech stack so the app can only be insta
 
 ---
 
-### Installation
-Download the Mentor Me APK from the release section of this repository.
+### ⚙️ Installation  
+1. **Download the APK** from the [Releases](https://github.com/your-repo/mentorme/releases) section.  
+2. Install on an Android device.  
+3. **Sign up** or log in to start exploring mentors!  
 
-Install the app in you Android Device.
-
-Create an Account using Sign Up.
-
-And Enjoy :)
+### 🛠️ Tech Stack  
+- **Frontend**: Kotlin, XML (Android Studio)  
+- **Backend**: Firebase (Auth, Realtime DB, Storage, Cloud Messaging)  
+- **APIs**: Agora (calls), Picasso (image caching)  
+- **Testing**: Espresso (3+ test cases)  
