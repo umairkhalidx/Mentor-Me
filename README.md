@@ -72,4 +72,4 @@
 - **Frontend**: Kotlin, XML (Android Studio)  
 - **Backend**: Firebase (Auth, Realtime DB, Storage, Cloud Messaging)  
 - **APIs**: Agora (calls), Picasso (image caching)  
-- **Testing**: Espresso (3+ test cases)  
+- **Testing**: Espresso 
